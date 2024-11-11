@@ -11,10 +11,12 @@ What are you waiting for, the carrots won't collect themselves!😸
 *********************************************************************************
 **How to run**:  
 Pass in a map file (map_1.ber, map_2.ber, map_3.ber) into the program.  
-./so_long maps/map_1.cub  
+./so_long maps/map_1.cub 
 
-![level_1](./images_for_git/so_long_level1.png)
+![level_1](./images_for_git/so_long_level1.png)  
 
 *********************************************************************************
-Requirements:
-You're going to have to install some depend
+**Technical info**:  
+The game uses MLX42 as a graphics library. 
+
+It also requires CMAKE to run.  
