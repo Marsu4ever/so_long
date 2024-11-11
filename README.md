@@ -11,7 +11,7 @@ What are you waiting for, the carrots won't collect themselves!😸
 *********************************************************************************
 How to run:  
 Pass in a map file (map_1.ber, map_2.ber, map_3.ber) into the program (you can find them in the game)  
-./so_long map_1.cub  
+./so_long maps/map_1.cub  
 
 *********************************************************************************
 Requirements:
