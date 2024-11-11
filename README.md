@@ -13,8 +13,7 @@ What are you waiting for, the carrots won't collect themselves!😸
 Pass in a map file (map_1.ber, map_2.ber, map_3.ber) into the program.  
 ./so_long maps/map_1.cub  
 
-![picture_of_level_1]()
-![App Screenshot](./images_for_git/so_long_level1.png)
+![level_1](./images_for_git/so_long_level1.png)
 
 *********************************************************************************
 Requirements:
