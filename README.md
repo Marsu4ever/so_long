@@ -20,4 +20,4 @@ Pass in a map file (map_1.ber, map_2.ber, map_3.ber) into the program.
 The game uses MLX42 as a graphics library. 
 https://github.com/codam-coding-college/MLX42  
 
-It also requires cmake and glfw (for graphics).  
+It also requires cmake (compilation) and glfw (graphics).  
