@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mkorpela <mkorpela@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: mkorpela <mkorpela@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 13:09:53 by mkorpela          #+#    #+#             */
-/*   Updated: 2024/02/09 15:09:02 by mkorpela         ###   ########.fr       */
+/*   Updated: 2024/07/29 10:29:27 by mkorpela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,11 +107,11 @@ static char	*make_string(int fd, char *string)
 
 char	*get_next_line(int fd)
 {
-	char static	*string;
+	static char	*string;
 	char		*line;
 
 	line = NULL;
-	if (fd < 0 || BUFFER_SIZE <= 0 || BUFFER_SIZE >= SIZE_MAX)
+	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
 	string = make_string(fd, string);
 	if (!string)

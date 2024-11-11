@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mkorpela <mkorpela@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: mkorpela <mkorpela@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 10:49:26 by mkorpela          #+#    #+#             */
-/*   Updated: 2024/03/14 15:57:14 by mkorpela         ###   ########.fr       */
+/*   Updated: 2024/07/30 12:07:36 by mkorpela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ typedef struct s_game
 	int				bunny_x;
 	int				bunny_y;
 	int				exit_x;
-	int				exit_y;	
+	int				exit_y;
 	int				carrots;
 	int				collected_carrots;
 	int				steps;

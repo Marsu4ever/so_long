@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   unsigned_int_putnbr.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mkorpela <mkorpela@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: mkorpela <mkorpela@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 12:27:13 by mkorpela          #+#    #+#             */
-/*   Updated: 2024/02/08 12:14:18 by mkorpela         ###   ########.fr       */
+/*   Updated: 2024/07/29 10:30:12 by mkorpela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	unsigned_int_putnbr(unsigned int n)
 		print_length += return_value;
 		n = n % 10;
 	}
-	if (n >= 0 && n <= 9)
+	if (n <= 9)
 	{
 		n += '0';
 		return_value = write (1, &n, 1);
